@@ -1,0 +1,35 @@
+{
+  "name": "acad_bot_setup_learning-johand",
+  "version": "1.0.0",
+  "description": "learning setup",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zetta-ari-johand/ACAD_BOT_SETUP_LEARNING-JOHAND.git"
+  },
+  "author": "Johand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zetta-ari-johand/ACAD_BOT_SETUP_LEARNING-JOHAND/issues"
+  },
+  "homepage": "https://github.com/zetta-ari-johand/ACAD_BOT_SETUP_LEARNING-JOHAND#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.8.1",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.3.1",
+    "express": "^4.16.0",
+    "graphql": "^14.4.2",
+    "graphql-middleware": "^4.0.0",
+    "graphql-tools": "^4.0.5",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
+}
